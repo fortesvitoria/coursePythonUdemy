@@ -22,8 +22,13 @@ else:
         price = 7
         totalprice = price
 
-    #acima de 18 anos
-    elif age > 18:
+    #entre 45 e 55 anos
+    elif age >= 45 and age <= 55:
+        price = 0
+        totalprice
+
+    # acima de 18 anos
+    else:
         price = 12
         totalprice = price
 
