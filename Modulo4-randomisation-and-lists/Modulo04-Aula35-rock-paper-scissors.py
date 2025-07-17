@@ -4,8 +4,6 @@ rock = "Rock! ✊"
 paper = "Paper! ✋"
 scissors = "Scissors! ✌"
 
-
-
 #lopping
 while True:
     try:
