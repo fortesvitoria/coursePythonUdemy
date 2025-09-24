@@ -58,8 +58,18 @@ def is_leap_year(year):
         return True
     else:
         return False
+year = int(input("Type the year you want to check: "))
+
+result = is_leap_year(year)
 
 
-result = is_leap_year(2000)
-print(result)
+def writeMessage(result):
+    if result is True:
+        return f"The year {year} is a leap year!"
+    else:
+        return f"The year {year} is not a leap year!"
+
+message = writeMessage(result)
+
+print(message)
 
