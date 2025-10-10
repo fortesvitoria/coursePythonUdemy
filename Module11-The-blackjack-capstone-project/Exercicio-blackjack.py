@@ -47,7 +47,7 @@ def play_game():
     game_over = False
 
 
-    for i in range(2):    
+    for _ in range(2):    
         user_cards.append(deal_card())
         computer_cards.append(deal_card())
 
