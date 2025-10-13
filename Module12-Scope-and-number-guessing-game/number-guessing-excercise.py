@@ -11,7 +11,7 @@ print("I'm thinking a number from 1 to 100.")
 
 #user choose the difficulty
 while True:
-    choice = input("Choose a difficulty. Type 'easy' or 'hard':\n")
+    choice = input("Choose a difficulty. Type 'easy' or 'hard':\n").lower()
     if choice == 'easy':
         choice_number = 10
         print("You have 10 attempts!")
@@ -25,11 +25,15 @@ while True:
 
 #loop that receives the number of choice attemps and breaks when the guess is right
 for i in range(choice_number):
-    user_guess = int(input(f"You have {choice_number} attempts left. Guess a number:"))
+    user_guess = int(input(f"You have {choice_number} attempts left. Guess a number:\n"))
     choice_number -=1
     if user_guess == random_number:
-        print ("You win.")
+        print (f"You win. The number was {random_number}!")
         break
+    elif user_guess < random_number:
+        print('Too low. Try again!')
+    elif user_guess > random_number:
+        print('Too high. Try again!')
     else:
         print("Wrong guess! Try again")
 else:
