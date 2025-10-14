@@ -4,10 +4,12 @@ hard - 5 attempts
 
 '''
 import random
+
+#choosing a number from 1 to 100
 random_number = random.randint(1,100)
 print(random_number)
 print("Welcome to the guessing game!")
-print("I'm thinking a number from 1 to 100.")
+print("I'm thinking of a number from 1 to 100.")
 
 #user choose the difficulty
 while True:
