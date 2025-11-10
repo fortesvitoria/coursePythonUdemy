@@ -1,79 +1,80 @@
 data = [
     {
         'name': 'Instagram',
-        'follower_count': 346,
+        'follower_count': 696,
         'description': 'Social media platform',
         'country': 'United States'
+        'image': url
     },
     {
         'name': 'Cristiano Ronaldo',
-        'follower_count': 215,
+        'follower_count': 667,
         'description': 'Footballer',
         'country': 'Portugal'
     },
     {
         'name': 'Ariana Grande',
-        'follower_count': 183,
+        'follower_count': 372,
         'description': 'Musician and actress',
         'country': 'United States'
     },
     {
         'name': 'Dwayne Johnson',
-        'follower_count': 181,
+        'follower_count': 391,
         'description': 'Actor and professional wrestler',
         'country': 'United States'
     },
     {
         'name': 'Selena Gomez',
-        'follower_count': 174,
+        'follower_count': 417,
         'description': 'Musician and actress',
         'country': 'United States'
     },
     {
-        'name': 'Kylie Jenner',
-        'follower_count': 172,
-        'description': 'Reality TV personality and businesswoman and Self-Made Billionaire',
-        'country': 'United States'
+        'name': 'Anitta',
+        'follower_count': 63,
+        'description': 'Brazilian singer',
+        'country': 'Brazil'
     },
     {
         'name': 'Kim Kardashian',
-        'follower_count': 167,
+        'follower_count': 354,
         'description': 'Reality TV personality and businesswoman',
         'country': 'United States'
     },
     {
         'name': 'Lionel Messi',
-        'follower_count': 149,
+        'follower_count': 507,
         'description': 'Footballer',
         'country': 'Argentina'
     },
     {
         'name': 'Beyoncé',
-        'follower_count': 145,
+        'follower_count': 309,
         'description': 'Musician',
         'country': 'United States'
     },
     {
         'name': 'Neymar',
-        'follower_count': 138,
+        'follower_count': 231,
         'description': 'Footballer',
         'country': 'Brasil'
     },
     {
         'name': 'National Geographic',
-        'follower_count': 135,
+        'follower_count': 276,
         'description': 'Magazine',
         'country': 'United States'
     },
     {
         'name': 'Justin Bieber',
-        'follower_count': 133,
+        'follower_count': 239,
         'description': 'Musician',
         'country': 'Canada'
     },
     {
         'name': 'Taylor Swift',
-        'follower_count': 131,
+        'follower_count': 281,
         'description': 'Musician',
         'country': 'United States'
     },
