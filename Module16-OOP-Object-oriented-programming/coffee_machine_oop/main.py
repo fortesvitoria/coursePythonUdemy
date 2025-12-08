@@ -7,7 +7,7 @@ def main():
         menu = Menu()
         coffee = CoffeeMaker()
         money = MoneyMachine()
-
+ 
         on = True 
         
         while on:

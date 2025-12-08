@@ -6,7 +6,7 @@ class CoffeeMaker:
             "milk": 200,
             "coffee": 100,
         }
-
+ 
     def report(self):
         """Prints a report of all resources."""
         print(f"Water: {self.resources['water']}ml")
